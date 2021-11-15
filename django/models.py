@@ -9,7 +9,7 @@ import random
 
 
 
-# Create your models here. https://stackoverflow.com/questions/39412968/allow-only-one-instance-of-a-model-in-django
+# Create your models here. 
 class Config(models.Model):
     n1_mistakes = models.IntegerField(default = 1)
     n2_mistakes = models.IntegerField(default = 2)
